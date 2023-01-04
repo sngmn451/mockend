@@ -1,6 +1,13 @@
 {
   "Status": {
-    "statusCode": 200,
-    "statusMessage": "OK"
+    "statusCode": {
+      "int": {
+        "min": 200,
+        "max": 200
+      } 
+    },
+    "statusMessage": {
+      "string": {}
+    }
   }
 }
